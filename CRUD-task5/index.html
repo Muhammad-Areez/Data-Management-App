@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Data Management App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Data Management App</h1>
+
+        <!-- Form for Adding Data -->
+        <div class="form-container">
+            <form id="data-form">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="text" id="email" placeholder="Email" required>
+                <button type="submit">Add Data</button>
+            </form>
+        </div>
+
+        <!-- Table to Display Data -->
+        <div class="table-container">
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
